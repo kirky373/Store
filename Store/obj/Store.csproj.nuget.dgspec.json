@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Callum\\source\\repos\\Store\\Store\\Store.csproj": {}
+    "C:\\Users\\callu\\Source\\Repos\\kirky373\\Store\\Store\\Store.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Callum\\source\\repos\\Store\\Store\\Store.csproj": {
+    "C:\\Users\\callu\\Source\\Repos\\kirky373\\Store\\Store\\Store.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Callum\\source\\repos\\Store\\Store\\Store.csproj",
+        "projectUniqueName": "C:\\Users\\callu\\Source\\Repos\\kirky373\\Store\\Store\\Store.csproj",
         "projectName": "Store",
-        "projectPath": "C:\\Users\\Callum\\source\\repos\\Store\\Store\\Store.csproj",
-        "packagesPath": "C:\\Users\\Callum\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Callum\\source\\repos\\Store\\Store\\obj\\",
+        "projectPath": "C:\\Users\\callu\\Source\\Repos\\kirky373\\Store\\Store\\Store.csproj",
+        "packagesPath": "C:\\Users\\callu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\callu\\Source\\Repos\\kirky373\\Store\\Store\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Callum\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\callu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,6 +45,10 @@
               "target": "Package",
               "version": "[6.4.0, )"
             },
+            "Microsoft.AspNet.Identity.EntityFramework": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
             "Microsoft.AspNetCore.App": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -53,6 +57,24 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.2, )"
             },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
@@ -75,7 +97,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
