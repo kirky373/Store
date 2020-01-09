@@ -82,6 +82,7 @@ namespace Store.Controllers
             {
                 return NotFound();
             }
+
             ViewData["ProductId"] = new SelectList(_context.Products, "Id", "Name", review.ProductId);
             return View(review);
         }
@@ -155,6 +156,10 @@ namespace Store.Controllers
         private bool ReviewExists(int id)
         {
             return _context.Reviews.Any(e => e.Id == id);
+        }
+        private bool IsStaff(String staffId)
+        {
+            return _context.Staff.Any(e => e.Name == staffId);
         }
     }
 }

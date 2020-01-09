@@ -7,6 +7,7 @@ namespace Store.ReviewData
     {
         public DbSet<Review> Reviews { get; set; }
         public DbSet<Product> Products { get; set; }
+        public DbSet<Staff> Staff { get; set; }
 
         public ReviewDbContext(DbContextOptions<ReviewDbContext> options) : base(options)
         {
@@ -32,6 +33,12 @@ namespace Store.ReviewData
             {
                 x.Property(p => p.Name).IsRequired();
                 x.Property(p => p.Description).IsRequired();
+            });
+
+            modelBuilder.Entity<Staff>(x =>
+            {
+                x.Property(p => p.Id).IsRequired();
+                x.Property(p => p.Name).IsRequired();
             });
         }
     }

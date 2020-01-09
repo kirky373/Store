@@ -58,6 +58,20 @@ namespace Store.Migrations
                     b.ToTable("Reviews");
                 });
 
+            modelBuilder.Entity("Store.ReviewData.Models.Staff", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Name")
+                        .IsRequired();
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Staff");
+                });
+
             modelBuilder.Entity("Store.ReviewData.Models.Review", b =>
                 {
                     b.HasOne("Store.ReviewData.Models.Product", "Product")

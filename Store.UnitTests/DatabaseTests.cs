@@ -59,7 +59,7 @@ namespace Store.UnitTests
         }
 
         [Fact]
-        public void ShouldBeAbleToCheckDataInAzureDatabase()
+        public void ShouldBeAbleToAddDataToAzureDatabase()
         {
 
         }
