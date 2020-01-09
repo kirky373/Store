@@ -16,5 +16,6 @@
     <_SelectedScaffolderID>MvcControllerWithContextScaffolder</_SelectedScaffolderID>
     <_SelectedScaffolderCategoryPath>root/Common</_SelectedScaffolderCategoryPath>
     <NameOfLastUsedPublishProfile>Store20200106112730 - Web Deploy</NameOfLastUsedPublishProfile>
+    <WebStackScaffolding_DependencyDialogWidth>600</WebStackScaffolding_DependencyDialogWidth>
   </PropertyGroup>
 </Project>
