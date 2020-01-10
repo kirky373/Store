@@ -29,4 +29,5 @@ steps:
   displayName: 'Publish Artifact: drop'
   inputs:
     pathtoPublish: '$(Build.ArtifactStagingDirectory)' 
-    artifactName: 'Store' 
+    artifactName: '_kirky373.Store' 
+- task: PublishBuildArtifacts@1
