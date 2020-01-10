@@ -19,12 +19,13 @@ steps:
 - task: CopyFiles@2
   inputs:
     targetFolder: '$(Build.ArtifactStagingDirectory)'    
+
 - task: AzureRmWebAppDeployment@4
   inputs:
-    ConnectionType: 'PublishProfile'
-    PublishProfilePath: '$(System.DefaultWorkingDirectory)/**/*.pubxml'
-    PublishProfilePassword: 'TestingPass'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+      ConnectionType: 'AzureRM'
+      appType: 'webApp'
+      WebAppName: 
+      packageForLinux: '$(System.DefaultWorkingDirectory)\InnovationInABox-CI\drop\s\build'
 - task: PublishBuildArtifacts@1    
   displayName: 'Publish Artifact: drop'
   inputs:
