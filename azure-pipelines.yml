@@ -20,15 +20,4 @@ steps:
   inputs:
     targetFolder: '$(Build.ArtifactStagingDirectory)'    
 
-- task: AzureRmWebAppDeployment@4
-  inputs:
-      ConnectionType: 'AzureRM'
-      appType: 'webApp'
-      WebAppName: 
-      packageForLinux: '$(System.DefaultWorkingDirectory)\InnovationInABox-CI\drop\s\build'
-- task: PublishBuildArtifacts@1    
-  displayName: 'Publish Artifact: drop'
-  inputs:
-    pathtoPublish: '$(Build.ArtifactStagingDirectory)' 
-    artifactName: '_kirky373.Store' 
 - task: PublishBuildArtifacts@1
