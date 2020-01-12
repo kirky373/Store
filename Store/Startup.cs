@@ -67,13 +67,7 @@ namespace Store
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
-
-                routes.MapRoute(
-                    name: "pagination",
-                    template: "Books/Page/{page}",
-                    defaults: new { Controller = "Core", action = "Books" }
-);
+                    template: "{controller=Reviews}/{action=Index}/{id?}");
             });
         }
     }

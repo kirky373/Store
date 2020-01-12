@@ -85,3 +85,4 @@ C:\Users\callu\Source\Repos\kirky373\Store\Store\obj\Debug\netcoreapp2.2\Store.d
 C:\Users\callu\Source\Repos\kirky373\Store\Store\obj\Debug\netcoreapp2.2\Store.pdb
 C:\Users\callu\Source\Repos\kirky373\Store\Store\obj\Debug\netcoreapp2.2\Store.csproj.CopyComplete
 C:\Users\callu\Source\Repos\kirky373\Store\Store\obj\Debug\netcoreapp2.2\Store.csprojAssemblyReference.cache
+C:\Users\Callum\source\repos\Store\Store\obj\Debug\netcoreapp2.2\Store.csprojAssemblyReference.cache
